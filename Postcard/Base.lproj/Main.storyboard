@@ -117,6 +117,15 @@
                                     <action selector="undoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zWV-Vy-bG8"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCQ-OO-cYJ">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="54" y="72" width="276" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -127,6 +136,7 @@
                                 <exclude reference="2p0-m6-AQD"/>
                                 <exclude reference="X6M-ac-x5I"/>
                                 <exclude reference="oH8-6I-u3L"/>
+                                <exclude reference="HCQ-OO-cYJ"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -137,6 +147,7 @@
                                 <include reference="2p0-m6-AQD"/>
                                 <include reference="X6M-ac-x5I"/>
                                 <include reference="oH8-6I-u3L"/>
+                                <include reference="HCQ-OO-cYJ"/>
                             </mask>
                         </variation>
                     </view>
@@ -145,6 +156,7 @@
                         <outlet property="enterNameTextField" destination="jb9-BR-c6J" id="K5l-Sg-kWu"/>
                         <outlet property="mailButton" destination="2p0-m6-AQD" id="Vm1-OS-JSI"/>
                         <outlet property="messageLabel" destination="X6M-ac-x5I" id="Mnd-an-vMd"/>
+                        <outlet property="nameLabel" destination="HCQ-OO-cYJ" id="d0M-e1-n3h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
